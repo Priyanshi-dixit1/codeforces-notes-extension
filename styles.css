@@ -1,0 +1,206 @@
+.cf-notes-box{
+
+    margin-top:40px;
+
+    padding:25px;
+
+    border:1px solid #ddd;
+
+    border-radius:14px;
+
+    background:white;
+}
+
+.cf-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:15px;
+}
+
+.cf-header h3{
+
+    margin:0;
+
+    font-size:20px;
+}
+
+#save-status{
+
+    color:#4caf50;
+
+    font-size:14px;
+
+    font-weight:600;
+}
+
+.cf-status-row{
+
+    display:flex;
+
+    gap:10px;
+
+    flex-wrap:wrap;
+
+    margin-bottom:15px;
+}
+
+.cf-tag{
+
+    border:none;
+
+    background:#f2f2f2;
+
+    padding:8px 14px;
+
+    border-radius:999px;
+
+    cursor:pointer;
+
+    font-size:13px;
+
+    transition:0.2s;
+}
+
+.cf-tag:hover{
+
+    background:#e7e7e7;
+}
+
+#cf-note{
+
+    width:100%;
+
+    min-height:180px;
+
+    resize:vertical;
+
+    padding:15px;
+
+    box-sizing:border-box;
+
+    font-size:15px;
+
+    line-height:1.7;
+
+    border:1px solid #ddd;
+
+    border-radius:10px;
+}
+
+#cf-note:focus{
+
+    outline:none;
+
+    border-color:#4caf50;
+}
+
+.cf-footer{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-top:15px;
+}
+
+#template-btn{
+
+    background:#4caf50;
+
+    color:white;
+
+    border:none;
+
+    padding:10px 18px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    font-size:14px;
+}
+
+#template-btn:hover{
+
+    background:#43a047;
+}
+
+#char-count{
+
+    color:#777;
+
+    font-size:13px;
+}
+.cf-tag {
+
+    border: none;
+
+    background: #f2f2f2;
+
+    padding: 8px 14px;
+
+    border-radius: 999px;
+
+    cursor: pointer;
+
+    font-size: 13px;
+
+    transition: .2s;
+}
+
+.cf-tag:hover {
+
+    background: #e7e7e7;
+}
+
+.cf-tag-active {
+
+    background: #4caf50 !important;
+
+    color: white;
+
+    font-weight: 600;
+}
+#cf-collapse{
+
+    cursor:pointer;
+
+    user-select:none;
+
+    margin:0;
+}
+
+#cf-collapse:hover{
+
+    color:#4caf50;
+}
+
+#cf-body{
+
+    margin-top:15px;
+}
+
+.cf-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+}
+
+#save-status{
+
+    color:#4caf50;
+
+    font-weight:600;
+
+    font-size:14px;
+}
